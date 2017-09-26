@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=1200">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>코드바이스</title>
+	<link rel="stylesheet" href="./cssReset.css" />
+	<link rel="stylesheet" href="./codvice_header.css?ver1" />
+	<link rel="stylesheet" href="./codvice_body.css?ver1" />
+	<link rel="stylesheet" href="./codvice_footer.css" />
+	<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=YOUR_CLIENT_ID"></script>
+	<style>
+	</style> 
+</head>
+<body>
+	<header id="header">
+		<ul>
+		  <li><a href="#contact">오시는 길</a></li>
+		  <li><a href="#2">문의</a></li>
+		  <li><a href="#service">서비스</a></li>
+		  <li><a href="#1">회사 소개</a></li>
+		</ul>
+	</header>
+	<div id="background">
+		
+	</div>
+	<div id="corpintro">
+		<div id="1">
+			<h1>회사 소개</h1>
+		</div>
+		<div id="content">
+			<p>*여기를 클릭해 내용을 입력하세요. 마우스로 텍스트 상자의 위치와 크기를
+변경하고, 텍스트 에디터에서 글꼴과 색상을 선택해 보세요. 다양한 한글 글꼴을
+사용하려면, 글꼴 언어를 한국어로 지정하세요.</p>
+		</div>
+	</div>
+	<div id="service">
+		<div id="contain">
+			<div class="circle">
+				<p>차이요우</p>
+			</div>
+			<div class="circle">
+				<p>차이나로드</p>
+			</div>
+			<div class="circle">
+				<p>한챗</p>
+			</div>
+		</div>
+	</div>
+	<div id="inqury">
+		<div id="2">
+			<h1>개발 외주</h1>
+		</div>
+		<div id="content">
+			<p>*여기를 클릭해 내용을 입력하세요. 마우스로 텍스트 상자의 위치와 크기를
+		변경하고, 텍스트 에디터에서 글꼴과 색상을 선택해 보세요. 다양한 한글 글꼴을
+		사용하려면, 글꼴 언어를 한국어로 지정하세요.</p>
+		</div>
+	</div>
+	<div id="contact">
+		<h1>오시는 길</h1>
+		<div id="map">
+			
+		</div>
+	</div>
+	
+	<footer>
+		<p>(주)코드바이스ㅣ경기도 성남시 중원구 광명로 377, 신구대학 창업관 B105호 / 대표 송인혁 / TEL (031) 747-4709 / FAX (031) 622-9752 <br />
+		개인정보관리자 송인혁 / 사업자등록번호 129-86-88413 / 통신판매업신고번호 제 2016-경기성남-0102호 <br />
+		제휴문의 : cs@editalk.co.kr<br />
+		Copyright ⓒ CODVICE Inc. All Rights Reserved</p>
+	</footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script>
+		var mapOptions = {
+		    center: new naver.maps.LatLng(37.3595704, 127.105399),
+		    zoom: 10
+		};
+	
+		var map = new naver.maps.Map('map', mapOptions);
+		</script>
+  
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>label tag</title>
+	<link rel="stylesheet" href="../cssReset.css" />
+	<style>
+		</style>
+		<script type="text/javascript" src="../jquery-3.1.0.min.js"></script>
+		<script>
+			function myListener(obj){
+				alert(obj.value);
+			}
+		</script>
+	
+</head>
+<body>
+	<select id="selectBox" onchange="myListener(this);">
+		<option id="0" value="value1">value</option>
+		<option id="1" value="value2">value2</option>
+		<option id="2" value="value3">value3</option>
+		<option id="3" value="value4">value4</option>
+		<option id="4" value="value5">value5</option>	
+	</select>
+</body>
+</html>

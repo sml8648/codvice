@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="uft-8" />
+	<title>JQuery</title>
+	<script type="text/javascript" src="../jquery-3.1.0.min.js"></script>
+</head>
+<body>
+	Please enter a domain name
+	<input id="searchip" />
+	<div id="resultip"></div>
+	
+	<script>
+		$(document).ready(function(){
+			$('#searchip').change(function(){
+				$.ajax({
+					type:'GET',
+					url: 'getip.php',
+					data: 'ip=' +$('#searchip').val(),
+					success: function(msg){
+						$('#resultip').html(msg);
+					}
+				});
+			});
+		});
+		</script>
+	</body>
+	</html>
+		

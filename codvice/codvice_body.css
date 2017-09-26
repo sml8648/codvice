@@ -1,0 +1,98 @@
+
+#background{
+	width:100%;
+	height:700px;
+	background-image:url('./round-leaved.jpg');
+	background-size:100% 700px;
+}
+
+#corpintro{
+	height:700px;
+}
+
+#corpintro div{
+	margin:100px auto;
+	width:500px;
+	_background-color:red;
+	text-align:center;
+}
+
+#corpintro div h1{
+	font-size:80px;
+}
+
+#content{
+	width:100%;
+	margin:0 auto;
+	_background-color:blue;
+}
+
+#content p{
+	font-size:25px;
+}
+
+/* 서비스 소개 부분 */
+
+#service{
+	height:700px;
+	background-color:rgba(0,0,0,0.3);
+}
+
+#contain{
+	display:inline-block;
+	width:800px;
+	margin:100px 0 0 150px;
+}
+.circle{
+	border:2px solid white;
+	border-radius:100px;
+	width:150px;
+	height:150px;
+	display:inline-block;
+	margin-left:100px;
+}
+
+.circle p{
+	margin-left:37px;
+	margin-top:60px;
+	color:white;
+	font-size:20px;
+}
+/* */
+
+#inqury{
+	height:700px;
+	_background-color:skyblue;
+}
+
+#inqury div{
+	margin:100px auto;
+	width:500px;
+	text-align:center;
+	
+}
+
+#inqury div h1{
+	font-size:80px;
+}
+
+/*  */
+
+#contact{
+	height:700px;
+	_background-color:hotpink;
+	border-top:0.5px dotted rgba(0,0,0,0.3);
+}
+
+#contact h1{
+	font-size:50px;
+	margin-top:170px;
+	margin-left:250px;
+}
+
+#contact div{
+	_background-color:green;
+	width:300px;
+	height:300px;
+	margin-left:700px;
+}

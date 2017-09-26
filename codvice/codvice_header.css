@@ -1,0 +1,26 @@
+header{
+	position:fixed;
+	width:100%;
+}
+ul{
+	list-style-type : none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;
+	height:65px;
+	text-align:center;
+}
+li{
+	margin-top:10px;
+	float:right;
+}
+li a{
+	font-size:13px;
+	display:block;
+	color: white;
+	text-align:center;
+	padding: 16px;
+	margin-right:25px;
+	text-decoration: none;
+}
